@@ -1,6 +1,6 @@
 #include <iostream>
-#include "oled/Edison_OLED.h"
-#include "gpio/gpio.h"
+#include "submodules/block_oled/Firmware/pong/oled/Edison_OLED.h"
+#include "submodules/block_oled/Firmware/pong/gpio/gpio.h"
 #include "math.h"
 #include <stdio.h>
 

@@ -56,7 +56,7 @@ void drawGame()
 {
 	oled.clear(PAGE);
 	
-	oled.rectFill(0, 0, oled.getLCDWidth(), oled.getLCDHeight());
+	oled.rectFill(5, 5, 10, 10);
 
 	oled.display();
 }

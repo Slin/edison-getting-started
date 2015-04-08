@@ -36,7 +36,7 @@ int main(int argc, char * argv[])
 
 	while(1)
 	{
-	//	drawGame();
+		drawGame();
 	}
 
 	cleanUp();
@@ -54,7 +54,7 @@ void setupOLED()
 // Draw the paddles, ball and score:
 void drawGame()
 {
-	oled.clear(PAGE);
+//	oled.clear(PAGE);
 
 	
 

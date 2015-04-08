@@ -1,0 +1,3 @@
+[submodule "submodules/block_oled"]
+	path = submodules/block_oled
+	url = git@github.com:sparkfun/Edison_OLED_Block.git

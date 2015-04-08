@@ -46,7 +46,7 @@ int main(int argc, char * argv[])
 void setupOLED()
 {
 	oled.begin();
-	//oled.clear(PAGE);
+	oled.clear(PAGE);
 	oled.display();
 	oled.setFontType(0);
 }
@@ -54,9 +54,9 @@ void setupOLED()
 // Draw the paddles, ball and score:
 void drawGame()
 {
-//	oled.clear(PAGE);
-
+	oled.clear(PAGE);
 	
+	oled.rectFill(0, 0, oled.getLCDWidth(), oled.getLCDHeight());
 
 	oled.display();
 }

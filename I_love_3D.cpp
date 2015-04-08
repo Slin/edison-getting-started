@@ -34,7 +34,9 @@ int main(int argc, char * argv[])
 
 	setupOLED();
 
-	while(1)
+	while(BUTTON_A.readPin() != HIGH){}
+
+	while(BUTTON_A.readPin() == HIGH)
 	{
 		drawGame();
 	}
